@@ -34,3 +34,33 @@ enum API {
 ```
 
 will access build settings values: `"localhost"` and `15.0` which are defined in `Development.xcconfig`.
+
+## Installation
+
+### CocoaPods
+
+To integrate XcodeConfig into your Xcode project using [CocoaPods](https://cocoapods.org), specify it in your `Podfile`:
+
+```ruby
+    pod 'XcodeConfig', :git => 'https://github.com/AnasAlhasani/XcodeConfig'
+```
+
+Then, run the following command:
+
+```bash
+$ pod install
+```
+
+### Swift Package Manager
+
+To integrate XcodeConfig into your Xcode project using [Swift Package Manager](https://swift.org/package-manager), add it to the `dependencies` value of your `Package.swift`:
+
+```swift
+dependencies: [ 
+    .package(url: "https://github.com/AnasAlhasani/XcodeConfig.git", from: "1.0.1")
+]
+```
+
+## Author
+
+Anas Alhasani
