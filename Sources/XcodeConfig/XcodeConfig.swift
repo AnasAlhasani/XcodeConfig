@@ -48,7 +48,7 @@ public struct XcodeConfig<Value: LosslessStringConvertible> {
     // MARK: Private Properties
     
     private let key: String
-    private let bundle: Bundle
+    private let bundle: BundleProvider
     
     // MARK: Public Properties
     
@@ -56,7 +56,10 @@ public struct XcodeConfig<Value: LosslessStringConvertible> {
     
     // MARK: Init
     
-    public init(key: String, bundle: Bundle = .main) {
+    public init(
+        key: String,
+        bundle: BundleProvider = .main
+    ) {
         self.key = key
         self.bundle = bundle
     }
