@@ -42,7 +42,7 @@ will access build settings values: `"localhost"` and `15.0` which are defined in
 To integrate XcodeConfig into your Xcode project using [CocoaPods](https://cocoapods.org), specify it in your `Podfile`:
 
 ```ruby
-    pod 'XcodeConfig', :git => 'https://github.com/AnasAlhasani/XcodeConfig'
+pod 'XcodeConfig', :git => 'https://github.com/AnasAlhasani/XcodeConfig'
 ```
 
 Then, run the following command:
